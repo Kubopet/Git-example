@@ -13,9 +13,9 @@ int main(){
 	
 	int _sum{};
 	int begin{}, int end{};
-	// begin = max(i_max,i_min);
-	// end = min(i_max,i_min);
-	// _sum = sum(massive,size,begin, end);
+	begin = min(i_min,i_max);
+	end = max(i_max,i_min);
+	_sum = sum(massive,size,begin, end);
 	std :: cout << "sum: " << _sum << '\n';
 	
 	return 0;
